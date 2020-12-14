@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "vue-admin-lerna",
+  "version": "1.0.0",
+  "description": "A frontend Framework for building B2B applications running in the browser on top of REST/GraphQL APIs, using ES6, Vue and Material Design",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "material-ui",
+    "vue",
+    "frontend-framework",
+    "rest",
+    "admin",
+    "admin-dashboard",
+    "single-page-app",
+    "admin-on-rest",
+    "vue-admin"
+  ],
+  "author": "Nikolay Kostyurin <jilizart@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "4.3.6",
+    "jest": "26.6.3",
+    "lerna": "^2.11.0"
+  }
+}
