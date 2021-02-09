@@ -1,0 +1,28 @@
+{
+  "name": "@vue-admin/ui-element-plus",
+  "version": "1.0.0",
+  "description": "UI Components for vue-admin with Element Plus UI",
+  "files": [
+    "*.md",
+    "lib",
+    "esm",
+    "src"
+  ],
+  "main": "lib/index",
+  "module": "esm/index.js",
+  "types": "esm/index.d.ts",
+  "sideEffects": false,
+  "authors": [
+    "Nikolay Kostyurin <jilizart@gmail.com>"
+  ],
+  "repository": "JiLiZART/vue-admin",
+  "homepage": "https://github.com/JiLiZART/vue-admin#readme",
+  "bugs": "https://github.com/JiLiZART/vue-admin/issues",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build-cjs && npm run build-esm",
+    "build-cjs": "rimraf ./lib && tsc",
+    "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
+    "watch": "tsc --outDir esm --module es2015 --watch"
+  }
+}
