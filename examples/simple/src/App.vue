@@ -18,10 +18,12 @@
 
 <script type="ts">
 import { defineComponent } from 'vue'
-import { Admin, Resource } from '@vue-admin/components';
+import { Admin, Resource } from 'vue-admin';
 import Layout from "./components/Layout.vue";
 import CustomRouteNoLayout from "./components/CustomRouteNoLayout.vue";
 import CustomRouteLayout from "./components/CustomRouteNoLayout.vue";
+import dataProvider from './providers/dataProvider';
+import i18nProvider from './providers/i18nProvider';
 
 import tags from './resources/tags'
 import users from './resources/users'

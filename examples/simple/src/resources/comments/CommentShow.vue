@@ -6,7 +6,7 @@ import {
   Show,
   SimpleShowLayout,
   TextField,
-} from '@vue-admin/components';
+} from '@vue-admin/core';
 
 export default defineComponent({
   name: 'CommentShow',

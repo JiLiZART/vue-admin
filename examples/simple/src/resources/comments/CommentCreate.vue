@@ -7,7 +7,7 @@ import {
   SimpleForm,
   required,
   minLength,
-} from '@vue-admin/components';
+} from '@vue-admin/core';
 import PostReferenceInput from './PostReferenceInput.vue';
 
 const now = new Date();

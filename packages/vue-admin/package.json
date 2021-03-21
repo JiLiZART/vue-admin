@@ -20,7 +20,7 @@
   "bugs": "https://github.com/JiLiZART/vue-admin/issues",
   "license": "MIT",
   "scripts": {
-    "build": "npm run build-cjs && npm run build-esm",
+    "build": "../../node_modules/.bin/vuedx-typecheck . && ../../node_modules/.bin/vite build",
     "build-cjs": "rimraf ./lib && tsc",
     "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
     "watch": "tsc --outDir esm --module es2015 --watch"
